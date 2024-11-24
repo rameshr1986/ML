@@ -45,8 +45,8 @@ Root Mean Squared Error (RMSE): A common metric for regression tasks, measuring 
 R-squared: Indicates how well the model fits the data (higher values represent better fit).
 Example results from the model (Note: Adjust based on actual performance):
 
-RMSE: 25,000 GBP (example).
-R-squared: 0.85 (example).
+MAE: 61,000 GBP (example) if you use 20% of data
+MAE: 25000 GBP if use complete set of data along with bank of england interest rates
 Validation:
 
 Cross-validation is performed to ensure the model generalizes well to unseen data and avoids overfitting.
